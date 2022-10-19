@@ -1,11 +1,10 @@
 package flower.store;
 
-import java.util.Dictionary;
 import java.util.Hashtable;
 
 public class Store {
 
-    public Hashtable<Flower, Integer> assortment;
+    private Hashtable<Flower, Integer> assortment;
 
     public Store() {
         this.assortment = new Hashtable<>();

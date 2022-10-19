@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class FlowerBucket {
 
-    private double sum=0;
+    private double sum = 0;
 
     private ArrayList<FlowerPack> pacs;
 
@@ -12,7 +12,7 @@ public class FlowerBucket {
         this.pacs = new ArrayList<>();
     }
 
-    public void add (FlowerPack flowerPack){
+    public void add(FlowerPack flowerPack) {
         pacs.add(flowerPack);
     }
 

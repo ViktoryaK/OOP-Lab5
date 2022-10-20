@@ -2,9 +2,8 @@ package flower.store;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 import java.util.Random;
+
 class StoreTest {
     private static final Random RANDOM_GENERATOR = new Random();
     private static final int MAX_QUANTITY = 1000;
